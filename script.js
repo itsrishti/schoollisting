@@ -1,4 +1,4 @@
-// Optimized JS: Defer loading and only log after DOM is ready
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Page loaded and ready");
-});
+// Simulate JS load delay
+setTimeout(() => {
+  console.log("Page fully loaded");
+}, 2000);
