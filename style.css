@@ -1,0 +1,42 @@
+/* Minified and optimized CSS */
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2e8b57;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.school-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.school-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.school-card:hover {
+  transform: scale(1.03);
+}
+
+.school-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+}
